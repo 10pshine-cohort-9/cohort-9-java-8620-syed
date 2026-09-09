@@ -1,8 +1,25 @@
-# VS Code
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
 .vscode/
+.idea/
 
-# Maven
-backend/target/
+# Java / Maven
+**/target/
+**/*.class
 
-# SQL Server authentication DLL
-backend/auth/
+# Node
+**/node_modules/
+**/dist/
+**/coverage/
+**/.scannerwork/
+
+# Logs
+*.log
